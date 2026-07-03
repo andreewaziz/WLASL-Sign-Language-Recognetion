@@ -2,8 +2,4 @@
 __pycache__/
 *.pyc
 .env
-data/
-dataset_videos/
-recordings/
-uploads/
 *.zip
