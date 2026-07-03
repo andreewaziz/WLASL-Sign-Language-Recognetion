@@ -1,0 +1,14 @@
+numpy>=1.24
+opencv-python>=4.8
+PyYAML>=6.0
+torch>=2.1
+torchvision>=0.16
+tqdm>=4.66
+pytest>=8.0
+yt-dlp>=2024.12.13
+kagglehub>=0.3.6
+gdown>=5.2.0
+streamlit>=1.38
+streamlit-webrtc>=0.47
+av>=12.0
+pandas>=2.0

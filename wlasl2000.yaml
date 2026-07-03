@@ -1,0 +1,21 @@
+subset: wlasl2000
+num_classes: 2000
+split_file: ../data/splits/nslt_2000.json
+clip_frames: 64
+image_size: 224
+resize_size: 256
+batch_size: 6
+num_workers: 4
+epochs: 400
+max_steps: 64000
+learning_rate: 0.0001
+weight_decay: 0.00000001
+adam_eps: 0.001
+grad_accum_steps: 1
+amp: true
+cache_mode: metadata
+seed: 0
+eval_interval: 1
+checkpoint_interval: 1
+train_splits: [train, val]
+val_splits: [test]

@@ -1,0 +1,10 @@
+{
+  "model": "RGB I3D",
+  "dataset": "WLASL2000",
+  "num_classes": 2000,
+  "checkpoint": "wlasl_i3d_pretrained.pt",
+  "config": "wlasl2000.yaml",
+  "class_list": "wlasl_class_list.txt",
+  "input_shape": "1 x 3 x 64 x 224 x 224",
+  "notes": "PyTorch checkpoint bundle. Use predict_one.py for inference."
+}
